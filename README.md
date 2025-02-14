@@ -44,9 +44,18 @@ The wiki for this workshop follows a structured format to maintain clarity and a
   ```sh
   sudo apt update && sudo apt upgrade -y
 
-### 🔧 Step 2: Build and Use the Docker Image
+### 🔧 Step 2: Build and Use the Docker Image in Local Computer
 - A pre-configured Docker image has been created to simplify the setup process.
 - 🛠 Docker Image Name: intro_to_hpc_ai_jupyter
+
+#### Clone the Repository
+- Clone the GitHub repository to your local machine:
+  ```sh
+  git clone https://github.com/UtsavDharani31/ethical-ai-docker
+
+- Navigate to the Repository
+  ```sh
+  cd ethical-ai-docker
 
 #### 📥 Steps to Use the Docker Image
 - Pull the Docker Image:

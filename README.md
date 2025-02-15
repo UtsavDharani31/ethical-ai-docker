@@ -63,7 +63,7 @@ The wiki for this workshop follows a structured format to maintain clarity and a
   docker pull ud31/intro_to_hpc_ai_jupyter
 - Run the Docker Container:
   ```sh
-  docker run -p 8888:8888 your-repo/intro_to_hpc_ai_jupyter
+  docker run -p 8888:8888 ud31/intro_to_hpc_ai_jupyter
 - Access Jupyter Notebook:
   ```sh
   Open a browser and go to http://localhost:8888
